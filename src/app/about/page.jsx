@@ -13,7 +13,6 @@ const AboutPage = () => {
   const isView = useInView(skillRef, { margin: "-100px" });
 
   const experienceRef = useRef();
-
   const isExperienceView = useInView(experienceRef, { margin: "-100px" });
 
   return (
@@ -28,18 +27,18 @@ const AboutPage = () => {
         {/* TEXT CONTAINER */}
         <div className="p-4 sm:p-8 md:p-12 lg:p-20 xl:p-48 flex flex-col gap-24 md:gap-32 lg:gap-48 xl:gap-64 lg:w-2/3 lg:pr-0 xl:w-1/2">
           {/* BIO CONTENT */}
-          <div className="flex flex-col justify-center gap-12   ">
+          <div className="flex flex-col justify-center gap-12">
             <h1 className="text-4xl font-bold">My Journey</h1>
             <p className="text-lg">
-              Hello! I'm Priyansh Patel, a passionate and dedicated MERN stack
-              developer with a knack for building dynamic and engaging web
+              Hello! I&apos;m Priyansh Patel, a passionate and dedicated MERN
+              stack developer with a knack for building dynamic and engaging web
               applications. Currently in my third year of software engineering,
               I have a robust understanding of technologies like React, Node.js,
               MongoDB, and Firebase. I have worked on over 15 projects,
               including a College Portal and a Blog Website, showcasing my
               ability to deliver high-quality, user-friendly digital
               experiences. I thrive in collaborative environments and am always
-              eager to learn and take on new challenges. Let's connect and
+              eager to learn and take on new challenges. Let&apos;s connect and
               create something amazing together!
             </p>
             <span className="italic">

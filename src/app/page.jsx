@@ -29,11 +29,11 @@ const Homepage = () => {
           </h1>
           {/* Desc */}
           <p className="md:text-xl">
-            I'm Priyansh Patel, a passionate MERN stack developer specializing
-            in crafting dynamic and user-friendly web applications. With
-            expertise in React, Node.js, and Firebase, I bring innovative ideas
-            to life through clean code and intuitive design. Let's build
-            something amazing together.
+            I&apos;m Priyansh Patel, a passionate MERN stack developer
+            specializing in crafting dynamic and user-friendly web applications.
+            With expertise in React, Node.js, and Firebase, I bring innovative
+            ideas to life through clean code and intuitive design. Let&apos;s
+            build something amazing together.
           </p>
           {/* Button */}
           <div className="w-full flex gap-4">
